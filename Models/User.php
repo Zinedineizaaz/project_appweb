@@ -1,37 +1,33 @@
 <?php
 class User {
-    private $db;
+    private $conn;
+    private $table_name = "users";
 
     public function __construct($db) {
-        $this->db = $db->conn;
+        $this->conn = $db;
     }
 
-    public function register($username, $password, $email) {
-        // Validasi jika username sudah terdaftar
-        $stmt = $this->db->prepare("SELECT * FROM users WHERE username = ?");
-        $stmt->execute([$username]);
-        if ($stmt->rowCount() > 0) {
-            return false; // Username sudah ada
-        }
-    
-        $stmt = $this->db->prepare("INSERT INTO users (username, password, email) VALUES (?, ?, ?)");
-        $stmt->execute([$username, password_hash($password, PASSWORD_DEFAULT), $email]);
-        return true;
+    public function create($username, $password, $email) {
+        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+        $query = "INSERT INTO " . $this->table_name . " (username, password, email) VALUES (:username, :password, :email)";
+        $stmt = $this->conn->prepare($query);
+        return $stmt->execute([
+            ':username' => $username,
+            ':password' => $hashed_password,
+            ':email' => $email
+        ]);
     }
-    
 
     public function login($username, $password) {
-        $stmt = $this->db->prepare("SELECT * FROM users WHERE username = ?");
-        $stmt->execute([$username]);
+        $query = "SELECT * FROM " . $this->table_name . " WHERE username = :username";
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute([':username' => $username]);
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($user && password_verify($password, $user['password'])) {
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['username'] = $user['username'];
-            return true;
+            return $user;
         }
         return false;
     }
 }
-
 ?>

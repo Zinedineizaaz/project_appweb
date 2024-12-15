@@ -1,0 +1,902 @@
+[
+    {
+        "id": "FL001",
+        "maskapai": "Batik Air",
+        "destinasi": "Jakarta - Yogyakarta",
+        "jadwal_keberangkatan": "2025-03-24 02:14:00",
+        "jadwal_kedatangan": "2025-03-24 03:23:00",
+        "harga": 2427595,
+        "estimasi_penerbangan": "1:09:00"
+    },
+    {
+        "id": "FL002",
+        "maskapai": "Citilink",
+        "destinasi": "Yogyakarta - Surabaya",
+        "jadwal_keberangkatan": "2025-01-03 00:20:00",
+        "jadwal_kedatangan": "2025-01-03 03:27:00",
+        "harga": 2176406,
+        "estimasi_penerbangan": "3:07:00"
+    },
+    {
+        "id": "FL003",
+        "maskapai": "Lion Air",
+        "destinasi": "Makassar - Balikpapan",
+        "jadwal_keberangkatan": "2025-01-11 20:18:00",
+        "jadwal_kedatangan": "2025-01-12 00:06:00",
+        "harga": 2931636,
+        "estimasi_penerbangan": "3:48:00"
+    },
+    {
+        "id": "FL004",
+        "maskapai": "Lion Air",
+        "destinasi": "Balikpapan - Medan",
+        "jadwal_keberangkatan": "2025-01-16 10:04:00",
+        "jadwal_kedatangan": "2025-01-16 13:18:00",
+        "harga": 1089822,
+        "estimasi_penerbangan": "3:14:00"
+    },
+    {
+        "id": "FL005",
+        "maskapai": "Batik Air",
+        "destinasi": "Surabaya - Medan",
+        "jadwal_keberangkatan": "2025-01-28 22:29:00",
+        "jadwal_kedatangan": "2025-01-29 02:56:00",
+        "harga": 1641420,
+        "estimasi_penerbangan": "4:27:00"
+    },
+    {
+        "id": "FL006",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Balikpapan - Balikpapan",
+        "jadwal_keberangkatan": "2025-03-22 10:30:00",
+        "jadwal_kedatangan": "2025-03-22 15:23:00",
+        "harga": 1333607,
+        "estimasi_penerbangan": "4:53:00"
+    },
+    {
+        "id": "FL007",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Balikpapan - Yogyakarta",
+        "jadwal_keberangkatan": "2025-01-11 09:36:00",
+        "jadwal_kedatangan": "2025-01-11 10:52:00",
+        "harga": 2801310,
+        "estimasi_penerbangan": "1:16:00"
+    },
+    {
+        "id": "FL008",
+        "maskapai": "Citilink",
+        "destinasi": "Surabaya - Denpasar",
+        "jadwal_keberangkatan": "2025-05-01 02:48:00",
+        "jadwal_kedatangan": "2025-05-01 05:45:00",
+        "harga": 2255013,
+        "estimasi_penerbangan": "2:57:00"
+    },
+    {
+        "id": "FL009",
+        "maskapai": "AirAsia",
+        "destinasi": "Yogyakarta - Makassar",
+        "jadwal_keberangkatan": "2025-01-26 11:01:00",
+        "jadwal_kedatangan": "2025-01-26 14:04:00",
+        "harga": 2096121,
+        "estimasi_penerbangan": "3:03:00"
+    },
+    {
+        "id": "FL010",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Medan - Balikpapan",
+        "jadwal_keberangkatan": "2025-02-19 09:37:00",
+        "jadwal_kedatangan": "2025-02-19 12:25:00",
+        "harga": 2622370,
+        "estimasi_penerbangan": "2:48:00"
+    },
+    {
+        "id": "FL011",
+        "maskapai": "Lion Air",
+        "destinasi": "Jakarta - Denpasar",
+        "jadwal_keberangkatan": "2025-01-22 19:49:00",
+        "jadwal_kedatangan": "2025-01-22 22:36:00",
+        "harga": 817540,
+        "estimasi_penerbangan": "2:47:00"
+    },
+    {
+        "id": "FL012",
+        "maskapai": "Batik Air",
+        "destinasi": "Makassar - Jakarta",
+        "jadwal_keberangkatan": "2025-02-22 03:46:00",
+        "jadwal_kedatangan": "2025-02-22 06:47:00",
+        "harga": 1443569,
+        "estimasi_penerbangan": "3:01:00"
+    },
+    {
+        "id": "FL013",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Yogyakarta - Jakarta",
+        "jadwal_keberangkatan": "2025-03-04 03:55:00",
+        "jadwal_kedatangan": "2025-03-04 05:58:00",
+        "harga": 1458273,
+        "estimasi_penerbangan": "2:03:00"
+    },
+    {
+        "id": "FL014",
+        "maskapai": "AirAsia",
+        "destinasi": "Makassar - Surabaya",
+        "jadwal_keberangkatan": "2025-02-06 16:40:00",
+        "jadwal_kedatangan": "2025-02-06 20:52:00",
+        "harga": 535926,
+        "estimasi_penerbangan": "4:12:00"
+    },
+    {
+        "id": "FL015",
+        "maskapai": "AirAsia",
+        "destinasi": "Manado - Denpasar",
+        "jadwal_keberangkatan": "2025-04-07 16:10:00",
+        "jadwal_kedatangan": "2025-04-07 21:01:00",
+        "harga": 1280627,
+        "estimasi_penerbangan": "4:51:00"
+    },
+    {
+        "id": "FL016",
+        "maskapai": "Lion Air",
+        "destinasi": "Jakarta - Surabaya",
+        "jadwal_keberangkatan": "2025-02-23 01:41:00",
+        "jadwal_kedatangan": "2025-02-23 05:23:00",
+        "harga": 1633307,
+        "estimasi_penerbangan": "3:42:00"
+    },
+    {
+        "id": "FL017",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Jakarta - Denpasar",
+        "jadwal_keberangkatan": "2025-01-26 06:37:00",
+        "jadwal_kedatangan": "2025-01-26 10:09:00",
+        "harga": 2282418,
+        "estimasi_penerbangan": "3:32:00"
+    },
+    {
+        "id": "FL018",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Manado - Jakarta",
+        "jadwal_keberangkatan": "2025-03-08 23:47:00",
+        "jadwal_kedatangan": "2025-03-09 03:57:00",
+        "harga": 2724541,
+        "estimasi_penerbangan": "4:10:00"
+    },
+    {
+        "id": "FL019",
+        "maskapai": "Lion Air",
+        "destinasi": "Yogyakarta - Makassar",
+        "jadwal_keberangkatan": "2025-01-29 02:25:00",
+        "jadwal_kedatangan": "2025-01-29 06:39:00",
+        "harga": 2510069,
+        "estimasi_penerbangan": "4:14:00"
+    },
+    {
+        "id": "FL020",
+        "maskapai": "Batik Air",
+        "destinasi": "Manado - Surabaya",
+        "jadwal_keberangkatan": "2025-01-27 13:19:00",
+        "jadwal_kedatangan": "2025-01-27 17:43:00",
+        "harga": 2181293,
+        "estimasi_penerbangan": "4:24:00"
+    },
+    {
+        "id": "FL021",
+        "maskapai": "Citilink",
+        "destinasi": "Yogyakarta - Medan",
+        "jadwal_keberangkatan": "2025-01-04 12:07:00",
+        "jadwal_kedatangan": "2025-01-04 14:52:00",
+        "harga": 1637763,
+        "estimasi_penerbangan": "2:45:00"
+    },
+    {
+        "id": "FL022",
+        "maskapai": "Batik Air",
+        "destinasi": "Denpasar - Denpasar",
+        "jadwal_keberangkatan": "2025-04-18 13:50:00",
+        "jadwal_kedatangan": "2025-04-18 16:36:00",
+        "harga": 2015719,
+        "estimasi_penerbangan": "2:46:00"
+    },
+    {
+        "id": "FL023",
+        "maskapai": "Lion Air",
+        "destinasi": "Manado - Denpasar",
+        "jadwal_keberangkatan": "2025-01-05 00:10:00",
+        "jadwal_kedatangan": "2025-01-05 02:20:00",
+        "harga": 2946763,
+        "estimasi_penerbangan": "2:10:00"
+    },
+    {
+        "id": "FL024",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Makassar - Surabaya",
+        "jadwal_keberangkatan": "2025-04-07 11:24:00",
+        "jadwal_kedatangan": "2025-04-07 15:48:00",
+        "harga": 1140301,
+        "estimasi_penerbangan": "4:24:00"
+    },
+    {
+        "id": "FL025",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Yogyakarta - Makassar",
+        "jadwal_keberangkatan": "2025-01-24 07:48:00",
+        "jadwal_kedatangan": "2025-01-24 11:30:00",
+        "harga": 1443663,
+        "estimasi_penerbangan": "3:42:00"
+    },
+    {
+        "id": "FL026",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Denpasar - Medan",
+        "jadwal_keberangkatan": "2025-03-27 12:34:00",
+        "jadwal_kedatangan": "2025-03-27 17:03:00",
+        "harga": 576279,
+        "estimasi_penerbangan": "4:29:00"
+    },
+    {
+        "id": "FL027",
+        "maskapai": "Batik Air",
+        "destinasi": "Makassar - Jakarta",
+        "jadwal_keberangkatan": "2025-01-02 02:31:00",
+        "jadwal_kedatangan": "2025-01-02 04:49:00",
+        "harga": 1243484,
+        "estimasi_penerbangan": "2:18:00"
+    },
+    {
+        "id": "FL028",
+        "maskapai": "Lion Air",
+        "destinasi": "Medan - Medan",
+        "jadwal_keberangkatan": "2025-03-13 07:44:00",
+        "jadwal_kedatangan": "2025-03-13 11:32:00",
+        "harga": 1266682,
+        "estimasi_penerbangan": "3:48:00"
+    },
+    {
+        "id": "FL029",
+        "maskapai": "Citilink",
+        "destinasi": "Medan - Denpasar",
+        "jadwal_keberangkatan": "2025-01-09 20:47:00",
+        "jadwal_kedatangan": "2025-01-09 22:22:00",
+        "harga": 2108222,
+        "estimasi_penerbangan": "1:35:00"
+    },
+    {
+        "id": "FL030",
+        "maskapai": "AirAsia",
+        "destinasi": "Surabaya - Denpasar",
+        "jadwal_keberangkatan": "2025-04-09 18:55:00",
+        "jadwal_kedatangan": "2025-04-09 23:44:00",
+        "harga": 766769,
+        "estimasi_penerbangan": "4:49:00"
+    },
+    {
+        "id": "FL031",
+        "maskapai": "Batik Air",
+        "destinasi": "Denpasar - Jakarta",
+        "jadwal_keberangkatan": "2025-03-28 16:28:00",
+        "jadwal_kedatangan": "2025-03-28 19:11:00",
+        "harga": 885767,
+        "estimasi_penerbangan": "2:43:00"
+    },
+    {
+        "id": "FL032",
+        "maskapai": "Lion Air",
+        "destinasi": "Balikpapan - Yogyakarta",
+        "jadwal_keberangkatan": "2025-02-12 03:47:00",
+        "jadwal_kedatangan": "2025-02-12 07:06:00",
+        "harga": 630290,
+        "estimasi_penerbangan": "3:19:00"
+    },
+    {
+        "id": "FL033",
+        "maskapai": "Citilink",
+        "destinasi": "Denpasar - Medan",
+        "jadwal_keberangkatan": "2025-03-24 12:25:00",
+        "jadwal_kedatangan": "2025-03-24 16:12:00",
+        "harga": 2682191,
+        "estimasi_penerbangan": "3:47:00"
+    },
+    {
+        "id": "FL034",
+        "maskapai": "Lion Air",
+        "destinasi": "Denpasar - Makassar",
+        "jadwal_keberangkatan": "2025-02-06 07:30:00",
+        "jadwal_kedatangan": "2025-02-06 09:56:00",
+        "harga": 979273,
+        "estimasi_penerbangan": "2:26:00"
+    },
+    {
+        "id": "FL035",
+        "maskapai": "Citilink",
+        "destinasi": "Manado - Surabaya",
+        "jadwal_keberangkatan": "2025-01-28 20:19:00",
+        "jadwal_kedatangan": "2025-01-28 22:25:00",
+        "harga": 1751449,
+        "estimasi_penerbangan": "2:06:00"
+    },
+    {
+        "id": "FL036",
+        "maskapai": "Lion Air",
+        "destinasi": "Denpasar - Surabaya",
+        "jadwal_keberangkatan": "2025-01-09 01:11:00",
+        "jadwal_kedatangan": "2025-01-09 05:54:00",
+        "harga": 2422172,
+        "estimasi_penerbangan": "4:43:00"
+    },
+    {
+        "id": "FL037",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Medan - Balikpapan",
+        "jadwal_keberangkatan": "2025-03-29 09:31:00",
+        "jadwal_kedatangan": "2025-03-29 12:16:00",
+        "harga": 2622952,
+        "estimasi_penerbangan": "2:45:00"
+    },
+    {
+        "id": "FL038",
+        "maskapai": "AirAsia",
+        "destinasi": "Jakarta - Jakarta",
+        "jadwal_keberangkatan": "2025-01-18 10:17:00",
+        "jadwal_kedatangan": "2025-01-18 15:00:00",
+        "harga": 2250878,
+        "estimasi_penerbangan": "4:43:00"
+    },
+    {
+        "id": "FL039",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Makassar - Surabaya",
+        "jadwal_keberangkatan": "2025-01-30 06:40:00",
+        "jadwal_kedatangan": "2025-01-30 08:37:00",
+        "harga": 2910352,
+        "estimasi_penerbangan": "1:57:00"
+    },
+    {
+        "id": "FL040",
+        "maskapai": "AirAsia",
+        "destinasi": "Manado - Medan",
+        "jadwal_keberangkatan": "2025-01-06 13:20:00",
+        "jadwal_kedatangan": "2025-01-06 15:48:00",
+        "harga": 1243964,
+        "estimasi_penerbangan": "2:28:00"
+    },
+    {
+        "id": "FL041",
+        "maskapai": "AirAsia",
+        "destinasi": "Denpasar - Makassar",
+        "jadwal_keberangkatan": "2024-12-29 20:35:00",
+        "jadwal_kedatangan": "2024-12-30 00:27:00",
+        "harga": 2126808,
+        "estimasi_penerbangan": "3:52:00"
+    },
+    {
+        "id": "FL042",
+        "maskapai": "Batik Air",
+        "destinasi": "Surabaya - Jakarta",
+        "jadwal_keberangkatan": "2025-03-01 19:34:00",
+        "jadwal_kedatangan": "2025-03-01 23:23:00",
+        "harga": 2958965,
+        "estimasi_penerbangan": "3:49:00"
+    },
+    {
+        "id": "FL043",
+        "maskapai": "Citilink",
+        "destinasi": "Denpasar - Balikpapan",
+        "jadwal_keberangkatan": "2025-02-27 05:21:00",
+        "jadwal_kedatangan": "2025-02-27 10:06:00",
+        "harga": 1549198,
+        "estimasi_penerbangan": "4:45:00"
+    },
+    {
+        "id": "FL044",
+        "maskapai": "AirAsia",
+        "destinasi": "Jakarta - Surabaya",
+        "jadwal_keberangkatan": "2025-03-20 02:06:00",
+        "jadwal_kedatangan": "2025-03-20 04:57:00",
+        "harga": 2936490,
+        "estimasi_penerbangan": "2:51:00"
+    },
+    {
+        "id": "FL045",
+        "maskapai": "Lion Air",
+        "destinasi": "Jakarta - Yogyakarta",
+        "jadwal_keberangkatan": "2025-02-27 05:50:00",
+        "jadwal_kedatangan": "2025-02-27 08:05:00",
+        "harga": 1839909,
+        "estimasi_penerbangan": "2:15:00"
+    },
+    {
+        "id": "FL046",
+        "maskapai": "AirAsia",
+        "destinasi": "Medan - Medan",
+        "jadwal_keberangkatan": "2025-01-25 19:00:00",
+        "jadwal_kedatangan": "2025-01-25 23:02:00",
+        "harga": 1318494,
+        "estimasi_penerbangan": "4:02:00"
+    },
+    {
+        "id": "FL047",
+        "maskapai": "AirAsia",
+        "destinasi": "Manado - Jakarta",
+        "jadwal_keberangkatan": "2025-02-09 15:47:00",
+        "jadwal_kedatangan": "2025-02-09 20:23:00",
+        "harga": 2073210,
+        "estimasi_penerbangan": "4:36:00"
+    },
+    {
+        "id": "FL048",
+        "maskapai": "Lion Air",
+        "destinasi": "Makassar - Medan",
+        "jadwal_keberangkatan": "2025-02-26 07:36:00",
+        "jadwal_kedatangan": "2025-02-26 09:06:00",
+        "harga": 2464984,
+        "estimasi_penerbangan": "1:30:00"
+    },
+    {
+        "id": "FL049",
+        "maskapai": "Batik Air",
+        "destinasi": "Denpasar - Surabaya",
+        "jadwal_keberangkatan": "2025-04-14 02:38:00",
+        "jadwal_kedatangan": "2025-04-14 05:49:00",
+        "harga": 2917132,
+        "estimasi_penerbangan": "3:11:00"
+    },
+    {
+        "id": "FL050",
+        "maskapai": "Lion Air",
+        "destinasi": "Balikpapan - Makassar",
+        "jadwal_keberangkatan": "2025-01-25 14:04:00",
+        "jadwal_kedatangan": "2025-01-25 15:35:00",
+        "harga": 878263,
+        "estimasi_penerbangan": "1:31:00"
+    },
+    {
+        "id": "FL051",
+        "maskapai": "Lion Air",
+        "destinasi": "Makassar - Yogyakarta",
+        "jadwal_keberangkatan": "2025-01-09 05:09:00",
+        "jadwal_kedatangan": "2025-01-09 07:40:00",
+        "harga": 2314329,
+        "estimasi_penerbangan": "2:31:00"
+    },
+    {
+        "id": "FL052",
+        "maskapai": "Batik Air",
+        "destinasi": "Denpasar - Jakarta",
+        "jadwal_keberangkatan": "2025-04-28 09:07:00",
+        "jadwal_kedatangan": "2025-04-28 12:34:00",
+        "harga": 1509903,
+        "estimasi_penerbangan": "3:27:00"
+    },
+    {
+        "id": "FL053",
+        "maskapai": "Citilink",
+        "destinasi": "Denpasar - Balikpapan",
+        "jadwal_keberangkatan": "2025-04-15 20:15:00",
+        "jadwal_kedatangan": "2025-04-15 23:41:00",
+        "harga": 2849498,
+        "estimasi_penerbangan": "3:26:00"
+    },
+    {
+        "id": "FL054",
+        "maskapai": "AirAsia",
+        "destinasi": "Surabaya - Manado",
+        "jadwal_keberangkatan": "2025-01-05 04:04:00",
+        "jadwal_kedatangan": "2025-01-05 05:14:00",
+        "harga": 1929349,
+        "estimasi_penerbangan": "1:10:00"
+    },
+    {
+        "id": "FL055",
+        "maskapai": "Citilink",
+        "destinasi": "Manado - Medan",
+        "jadwal_keberangkatan": "2025-02-06 17:14:00",
+        "jadwal_kedatangan": "2025-02-06 21:52:00",
+        "harga": 753264,
+        "estimasi_penerbangan": "4:38:00"
+    },
+    {
+        "id": "FL056",
+        "maskapai": "Batik Air",
+        "destinasi": "Medan - Manado",
+        "jadwal_keberangkatan": "2025-03-27 22:15:00",
+        "jadwal_kedatangan": "2025-03-27 23:35:00",
+        "harga": 2840147,
+        "estimasi_penerbangan": "1:20:00"
+    },
+    {
+        "id": "FL057",
+        "maskapai": "Batik Air",
+        "destinasi": "Yogyakarta - Jakarta",
+        "jadwal_keberangkatan": "2024-12-25 01:12:00",
+        "jadwal_kedatangan": "2024-12-25 05:39:00",
+        "harga": 2978587,
+        "estimasi_penerbangan": "4:27:00"
+    },
+    {
+        "id": "FL058",
+        "maskapai": "Lion Air",
+        "destinasi": "Surabaya - Surabaya",
+        "jadwal_keberangkatan": "2025-04-07 04:22:00",
+        "jadwal_kedatangan": "2025-04-07 06:00:00",
+        "harga": 1403118,
+        "estimasi_penerbangan": "1:38:00"
+    },
+    {
+        "id": "FL059",
+        "maskapai": "AirAsia",
+        "destinasi": "Makassar - Surabaya",
+        "jadwal_keberangkatan": "2025-01-31 09:00:00",
+        "jadwal_kedatangan": "2025-01-31 11:04:00",
+        "harga": 2829239,
+        "estimasi_penerbangan": "2:04:00"
+    },
+    {
+        "id": "FL060",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Jakarta - Medan",
+        "jadwal_keberangkatan": "2025-01-23 14:40:00",
+        "jadwal_kedatangan": "2025-01-23 17:27:00",
+        "harga": 565670,
+        "estimasi_penerbangan": "2:47:00"
+    },
+    {
+        "id": "FL061",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Jakarta - Manado",
+        "jadwal_keberangkatan": "2025-02-24 19:26:00",
+        "jadwal_kedatangan": "2025-02-24 23:03:00",
+        "harga": 1862096,
+        "estimasi_penerbangan": "3:37:00"
+    },
+    {
+        "id": "FL062",
+        "maskapai": "AirAsia",
+        "destinasi": "Denpasar - Makassar",
+        "jadwal_keberangkatan": "2025-04-04 21:31:00",
+        "jadwal_kedatangan": "2025-04-04 23:52:00",
+        "harga": 920260,
+        "estimasi_penerbangan": "2:21:00"
+    },
+    {
+        "id": "FL063",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Denpasar - Yogyakarta",
+        "jadwal_keberangkatan": "2025-02-19 18:33:00",
+        "jadwal_kedatangan": "2025-02-19 20:04:00",
+        "harga": 620430,
+        "estimasi_penerbangan": "1:31:00"
+    },
+    {
+        "id": "FL064",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Surabaya - Yogyakarta",
+        "jadwal_keberangkatan": "2025-02-28 13:04:00",
+        "jadwal_kedatangan": "2025-02-28 15:36:00",
+        "harga": 879614,
+        "estimasi_penerbangan": "2:32:00"
+    },
+    {
+        "id": "FL065",
+        "maskapai": "AirAsia",
+        "destinasi": "Denpasar - Surabaya",
+        "jadwal_keberangkatan": "2025-03-07 12:48:00",
+        "jadwal_kedatangan": "2025-03-07 14:48:00",
+        "harga": 1752313,
+        "estimasi_penerbangan": "2:00:00"
+    },
+    {
+        "id": "FL066",
+        "maskapai": "Lion Air",
+        "destinasi": "Surabaya - Denpasar",
+        "jadwal_keberangkatan": "2025-03-20 16:29:00",
+        "jadwal_kedatangan": "2025-03-20 17:41:00",
+        "harga": 2396843,
+        "estimasi_penerbangan": "1:12:00"
+    },
+    {
+        "id": "FL067",
+        "maskapai": "Batik Air",
+        "destinasi": "Medan - Manado",
+        "jadwal_keberangkatan": "2025-03-18 19:22:00",
+        "jadwal_kedatangan": "2025-03-19 00:03:00",
+        "harga": 2275587,
+        "estimasi_penerbangan": "4:41:00"
+    },
+    {
+        "id": "FL068",
+        "maskapai": "AirAsia",
+        "destinasi": "Makassar - Makassar",
+        "jadwal_keberangkatan": "2025-03-23 00:15:00",
+        "jadwal_kedatangan": "2025-03-23 02:08:00",
+        "harga": 1856916,
+        "estimasi_penerbangan": "1:53:00"
+    },
+    {
+        "id": "FL069",
+        "maskapai": "AirAsia",
+        "destinasi": "Manado - Jakarta",
+        "jadwal_keberangkatan": "2024-12-24 07:06:00",
+        "jadwal_kedatangan": "2024-12-24 10:51:00",
+        "harga": 1543911,
+        "estimasi_penerbangan": "3:45:00"
+    },
+    {
+        "id": "FL070",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Jakarta - Denpasar",
+        "jadwal_keberangkatan": "2025-03-13 23:44:00",
+        "jadwal_kedatangan": "2025-03-14 02:16:00",
+        "harga": 1230769,
+        "estimasi_penerbangan": "2:32:00"
+    },
+    {
+        "id": "FL071",
+        "maskapai": "Lion Air",
+        "destinasi": "Jakarta - Yogyakarta",
+        "jadwal_keberangkatan": "2025-04-21 04:38:00",
+        "jadwal_kedatangan": "2025-04-21 08:17:00",
+        "harga": 1699989,
+        "estimasi_penerbangan": "3:39:00"
+    },
+    {
+        "id": "FL072",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Balikpapan - Jakarta",
+        "jadwal_keberangkatan": "2025-03-20 20:36:00",
+        "jadwal_kedatangan": "2025-03-20 21:36:00",
+        "harga": 582282,
+        "estimasi_penerbangan": "1:00:00"
+    },
+    {
+        "id": "FL073",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Yogyakarta - Manado",
+        "jadwal_keberangkatan": "2025-04-29 12:48:00",
+        "jadwal_kedatangan": "2025-04-29 15:53:00",
+        "harga": 2491512,
+        "estimasi_penerbangan": "3:05:00"
+    },
+    {
+        "id": "FL074",
+        "maskapai": "Citilink",
+        "destinasi": "Yogyakarta - Jakarta",
+        "jadwal_keberangkatan": "2025-01-19 23:04:00",
+        "jadwal_kedatangan": "2025-01-20 02:33:00",
+        "harga": 1493942,
+        "estimasi_penerbangan": "3:29:00"
+    },
+    {
+        "id": "FL075",
+        "maskapai": "Citilink",
+        "destinasi": "Balikpapan - Surabaya",
+        "jadwal_keberangkatan": "2025-03-27 13:36:00",
+        "jadwal_kedatangan": "2025-03-27 14:56:00",
+        "harga": 2545125,
+        "estimasi_penerbangan": "1:20:00"
+    },
+    {
+        "id": "FL076",
+        "maskapai": "AirAsia",
+        "destinasi": "Medan - Denpasar",
+        "jadwal_keberangkatan": "2025-03-13 10:26:00",
+        "jadwal_kedatangan": "2025-03-13 12:06:00",
+        "harga": 1026017,
+        "estimasi_penerbangan": "1:40:00"
+    },
+    {
+        "id": "FL077",
+        "maskapai": "Lion Air",
+        "destinasi": "Makassar - Manado",
+        "jadwal_keberangkatan": "2025-02-22 17:08:00",
+        "jadwal_kedatangan": "2025-02-22 19:04:00",
+        "harga": 2769790,
+        "estimasi_penerbangan": "1:56:00"
+    },
+    {
+        "id": "FL078",
+        "maskapai": "Lion Air",
+        "destinasi": "Manado - Makassar",
+        "jadwal_keberangkatan": "2025-03-04 00:06:00",
+        "jadwal_kedatangan": "2025-03-04 04:17:00",
+        "harga": 2526289,
+        "estimasi_penerbangan": "4:11:00"
+    },
+    {
+        "id": "FL079",
+        "maskapai": "AirAsia",
+        "destinasi": "Jakarta - Balikpapan",
+        "jadwal_keberangkatan": "2025-02-25 07:01:00",
+        "jadwal_kedatangan": "2025-02-25 08:48:00",
+        "harga": 1576889,
+        "estimasi_penerbangan": "1:47:00"
+    },
+    {
+        "id": "FL080",
+        "maskapai": "Batik Air",
+        "destinasi": "Medan - Medan",
+        "jadwal_keberangkatan": "2025-03-11 02:22:00",
+        "jadwal_kedatangan": "2025-03-11 04:54:00",
+        "harga": 2251433,
+        "estimasi_penerbangan": "2:32:00"
+    },
+    {
+        "id": "FL081",
+        "maskapai": "Batik Air",
+        "destinasi": "Jakarta - Makassar",
+        "jadwal_keberangkatan": "2025-03-23 18:06:00",
+        "jadwal_kedatangan": "2025-03-23 20:26:00",
+        "harga": 2007266,
+        "estimasi_penerbangan": "2:20:00"
+    },
+    {
+        "id": "FL082",
+        "maskapai": "Batik Air",
+        "destinasi": "Manado - Balikpapan",
+        "jadwal_keberangkatan": "2025-01-28 04:23:00",
+        "jadwal_kedatangan": "2025-01-28 09:04:00",
+        "harga": 1797887,
+        "estimasi_penerbangan": "4:41:00"
+    },
+    {
+        "id": "FL083",
+        "maskapai": "Batik Air",
+        "destinasi": "Denpasar - Yogyakarta",
+        "jadwal_keberangkatan": "2025-03-10 13:21:00",
+        "jadwal_kedatangan": "2025-03-10 14:31:00",
+        "harga": 2523012,
+        "estimasi_penerbangan": "1:10:00"
+    },
+    {
+        "id": "FL084",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Jakarta - Yogyakarta",
+        "jadwal_keberangkatan": "2025-04-22 21:26:00",
+        "jadwal_kedatangan": "2025-04-23 02:14:00",
+        "harga": 2508256,
+        "estimasi_penerbangan": "4:48:00"
+    },
+    {
+        "id": "FL085",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Surabaya - Makassar",
+        "jadwal_keberangkatan": "2025-02-11 04:07:00",
+        "jadwal_kedatangan": "2025-02-11 05:48:00",
+        "harga": 732313,
+        "estimasi_penerbangan": "1:41:00"
+    },
+    {
+        "id": "FL086",
+        "maskapai": "Batik Air",
+        "destinasi": "Manado - Makassar",
+        "jadwal_keberangkatan": "2025-02-02 07:38:00",
+        "jadwal_kedatangan": "2025-02-02 09:28:00",
+        "harga": 2192742,
+        "estimasi_penerbangan": "1:50:00"
+    },
+    {
+        "id": "FL087",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Jakarta - Balikpapan",
+        "jadwal_keberangkatan": "2025-02-21 11:27:00",
+        "jadwal_kedatangan": "2025-02-21 13:03:00",
+        "harga": 1703133,
+        "estimasi_penerbangan": "1:36:00"
+    },
+    {
+        "id": "FL088",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Denpasar - Makassar",
+        "jadwal_keberangkatan": "2025-01-23 00:54:00",
+        "jadwal_kedatangan": "2025-01-23 03:47:00",
+        "harga": 1409889,
+        "estimasi_penerbangan": "2:53:00"
+    },
+    {
+        "id": "FL089",
+        "maskapai": "Batik Air",
+        "destinasi": "Surabaya - Jakarta",
+        "jadwal_keberangkatan": "2025-04-10 19:34:00",
+        "jadwal_kedatangan": "2025-04-10 22:54:00",
+        "harga": 2899223,
+        "estimasi_penerbangan": "3:20:00"
+    },
+    {
+        "id": "FL090",
+        "maskapai": "Lion Air",
+        "destinasi": "Denpasar - Jakarta",
+        "jadwal_keberangkatan": "2025-03-18 01:00:00",
+        "jadwal_kedatangan": "2025-03-18 05:42:00",
+        "harga": 2889677,
+        "estimasi_penerbangan": "4:42:00"
+    },
+    {
+        "id": "FL091",
+        "maskapai": "Lion Air",
+        "destinasi": "Makassar - Manado",
+        "jadwal_keberangkatan": "2025-04-12 23:06:00",
+        "jadwal_kedatangan": "2025-04-13 01:33:00",
+        "harga": 1267928,
+        "estimasi_penerbangan": "2:27:00"
+    },
+    {
+        "id": "FL092",
+        "maskapai": "AirAsia",
+        "destinasi": "Makassar - Manado",
+        "jadwal_keberangkatan": "2025-02-14 05:30:00",
+        "jadwal_kedatangan": "2025-02-14 08:20:00",
+        "harga": 2134955,
+        "estimasi_penerbangan": "2:50:00"
+    },
+    {
+        "id": "FL093",
+        "maskapai": "Batik Air",
+        "destinasi": "Surabaya - Balikpapan",
+        "jadwal_keberangkatan": "2025-02-14 10:01:00",
+        "jadwal_kedatangan": "2025-02-14 13:15:00",
+        "harga": 1460736,
+        "estimasi_penerbangan": "3:14:00"
+    },
+    {
+        "id": "FL094",
+        "maskapai": "Lion Air",
+        "destinasi": "Denpasar - Manado",
+        "jadwal_keberangkatan": "2025-04-30 01:27:00",
+        "jadwal_kedatangan": "2025-04-30 03:52:00",
+        "harga": 2702326,
+        "estimasi_penerbangan": "2:25:00"
+    },
+    {
+        "id": "FL095",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Makassar - Medan",
+        "jadwal_keberangkatan": "2024-12-26 16:40:00",
+        "jadwal_kedatangan": "2024-12-26 20:27:00",
+        "harga": 1322710,
+        "estimasi_penerbangan": "3:47:00"
+    },
+    {
+        "id": "FL096",
+        "maskapai": "AirAsia",
+        "destinasi": "Yogyakarta - Balikpapan",
+        "jadwal_keberangkatan": "2025-04-26 13:58:00",
+        "jadwal_kedatangan": "2025-04-26 15:47:00",
+        "harga": 1019698,
+        "estimasi_penerbangan": "1:49:00"
+    },
+    {
+        "id": "FL097",
+        "maskapai": "Batik Air",
+        "destinasi": "Jakarta - Jakarta",
+        "jadwal_keberangkatan": "2025-01-29 09:45:00",
+        "jadwal_kedatangan": "2025-01-29 12:21:00",
+        "harga": 2591962,
+        "estimasi_penerbangan": "2:36:00"
+    },
+    {
+        "id": "FL098",
+        "maskapai": "Garuda Indonesia",
+        "destinasi": "Yogyakarta - Denpasar",
+        "jadwal_keberangkatan": "2025-04-04 05:04:00",
+        "jadwal_kedatangan": "2025-04-04 10:04:00",
+        "harga": 1100594,
+        "estimasi_penerbangan": "5:00:00"
+    },
+    {
+        "id": "FL099",
+        "maskapai": "Batik Air",
+        "destinasi": "Yogyakarta - Makassar",
+        "jadwal_keberangkatan": "2025-01-05 13:52:00",
+        "jadwal_kedatangan": "2025-01-05 17:11:00",
+        "harga": 1521132,
+        "estimasi_penerbangan": "3:19:00"
+    },
+    {
+        "id": "FL100",
+        "maskapai": "Citilink",
+        "destinasi": "Manado - Balikpapan",
+        "jadwal_keberangkatan": "2025-03-03 03:51:00",
+        "jadwal_kedatangan": "2025-03-03 08:30:00",
+        "harga": 2800127,
+        "estimasi_penerbangan": "4:39:00"
+    }
+]

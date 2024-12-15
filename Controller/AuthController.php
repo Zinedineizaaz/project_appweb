@@ -1,63 +1,100 @@
 <?php
-class AuthController extends Controller {
+require_once 'Models/User.php';
+
+class AuthController {
+    private $user;
+
+    public function __construct($db) {
+        $this->user = new User($db);
+    }
+
     public function login() {
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        session_start();
+        $error = '';
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $username = trim($_POST['username']);
             $password = trim($_POST['password']);
-            
-            // Validasi form
+    
+            // Validasi input kosong
             if (empty($username) || empty($password)) {
                 $error = "Username and Password are required.";
-                $this->loadView('login', ['error' => $error]);
+                include 'views/login.php';
                 return;
             }
-            
-            // Cek login menggunakan model User
-            $userModel = $this->loadModel('User');
-            if ($userModel->login($username, $password)) {
-                header('Location: /homepage');
+    
+            // Login user
+            $user = $this->user->login($username, $password);
+            if ($user) {
+                $_SESSION['user'] = $user['username'];
+                if (isset($_POST['remember_me'])) {
+                    setcookie('user', $user['username'], time() + (7 * 24 * 60 * 60), "/"); // 7 days
+                }
+                header('Location: index.php');
+                exit;
             } else {
                 $error = "Invalid username or password.";
-                $this->loadView('login', ['error' => $error]);
             }
-        } else {
-            $this->loadView('login');
         }
+        include 'Views/login.php';
     }
+    
 
-    public function register() {
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    public function signup() {
+        $error = '';
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $username = trim($_POST['username']);
             $password = trim($_POST['password']);
-            $password_confirm = trim($_POST['password_confirm']);
             $email = trim($_POST['email']);
-            
-            // Validasi form
-            if (empty($username) || empty($password) || empty($password_confirm) || empty($email)) {
+    
+            // Validasi input kosong
+            if (empty($username) || empty($password) || empty($email)) {
                 $error = "All fields are required.";
-                $this->loadView('register', ['error' => $error]);
+                include 'Views/register.php';
                 return;
             }
-
+    
+            // Validasi format email
             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 $error = "Invalid email format.";
-                $this->loadView('register', ['error' => $error]);
+                include 'Views/register.php';
                 return;
             }
-
-            if ($password !== $password_confirm) {
-                $error = "Passwords do not match.";
-                $this->loadView('register', ['error' => $error]);
+    
+            // Validasi panjang password
+            if (strlen($password) < 6) {
+                $error = "Password must be at least 6 characters.";
+                include 'Views/register.php';
                 return;
             }
-
-            // Enkripsi password dan simpan user
-            $userModel = $this->loadModel('User');
-            $userModel->register($username, $password, $email);
-            header('Location: /login');
-        } else {
-            $this->loadView('register');
+    
+            // Validasi apakah username atau email sudah digunakan
+            try {
+                $result = $this->user->create($username, $password, $email);
+                if ($result) {
+                    header('Location: index.php?route=login');
+                    exit;
+                } else {
+                    $error = "Username or email is already taken.";
+                }
+            } catch (Exception $e) {
+                $error = "Error occurred: " . $e->getMessage();
+            }
         }
+        include 'Views/register.php';
     }
+    
+
+    public function logout() {
+        session_start();
+        session_destroy();
+        if (isset($_COOKIE['user'])) {
+            setcookie('user', '', time() - 3600, "/"); // Expire the cookie
+        }
+    
+        // Redirect ke homepage
+        header('Location: homepage.php');
+        exit;
+    }
+    
 }
 ?>

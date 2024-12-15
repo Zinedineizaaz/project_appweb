@@ -1,19 +1,28 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'tiket_pesawat');
+require_once 'Libraries/Database.php';
 
-class Database {
-    public $conn;
+// Load data JSON
+$json_file = 'data/flights.json';
+$data = json_decode(file_get_contents($json_file), true);
 
-    public function __construct() {
-        try {
-            $this->conn = new PDO("mysql:host=localhost" . DB_HOST . ";dbname=tiket_pesawat" . DB_NAME, DB_USER, DB_PASS);
-            $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        } catch (PDOException $e) {
-            echo "Connection failed: " . $e->getMessage();
-        }
-    }
+// Koneksi database
+$db = Database::getInstance();
+
+// Import data ke database
+foreach ($data as $flight) {
+    $query = "INSERT INTO flights (airline, destination, departure_time, arrival_time, ticket_price, estimated_duration)
+              VALUES (:airline, :destination, :departure_time, :arrival_time, :ticket_price, :estimated_duration)";
+    $stmt = $db->prepare($query);
+    $stmt->execute([
+        ':airline' => $flight['airline'],
+        ':destination' => $flight['destination'],
+        ':departure_time' => $flight['departure_time'],
+        ':arrival_time' => $flight['arrival_time'],
+        ':ticket_price' => $flight['ticket_price'],
+        ':estimated_duration' => $flight['estimated_duration']
+    ]);
 }
+
+echo "Data imported successfully!";
 ?>
+
